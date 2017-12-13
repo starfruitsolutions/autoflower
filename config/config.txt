@@ -1,0 +1,3 @@
+#server
+HOST=pi:80
+DOCUMENT_ROOT=/home/pi/pio

@@ -1,0 +1,50 @@
+#fan_row{
+    height:34%;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#front_row{
+    height:33%;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#fan_text {
+    display:table-cell;
+    vertical-align:middle;
+    width:100%;
+}
+
+#fan_row font{
+    text-align:center;
+    font-size:24pt;
+    background-color:yellow;
+}
+
+#back_row{
+    height:33%;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.light {
+    height:100px;
+}
+
+.fan{
+    position:relative;
+    display:inline-block;
+    height:inherit;
+    text-align:center;
+    background: url(../../images/fan_on.png);
+    background-size:cover;
+    height:100px;
+    width:100px;
+}
+
+
+

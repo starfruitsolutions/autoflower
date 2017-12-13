@@ -1,0 +1,33 @@
+#schedules_widget {
+    font-size:24pt;
+}
+
+#form {
+    width:100%;
+    display:block;
+}
+
+input {
+    height:50px;
+    font-size:24pt;
+}
+
+button {
+    height:50px;
+    font-size:24pt;
+}
+    
+#table {
+    border: 3px solid black;
+    margin-right:auto;
+    margin-left:auto;
+    width:40%;
+}
+
+#table td {
+    font-size: 24pt;
+    border: 2px solid black;
+    width:100%;
+}
+
+

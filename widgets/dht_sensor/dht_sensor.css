@@ -1,0 +1,65 @@
+#dht_sensor_widget {
+/*    display: inline-block;*/
+/*    float:left;*/
+/*    margin-right:auto;*/
+/*    margin-left:auto;*/
+    text-align:center;
+}
+
+#temperatures {
+    z-index:2;
+}
+
+@font-face {
+	font-family: 'digi';
+	src: url('http://cssdeck.com/uploads/resources/fonts/digii/DS-DIGII.TTF');
+}
+
+.sensor_value {
+    font-family:'digi';
+    font-size: 84pt;
+    font-weight:bold;
+    color:#AFD402;
+    opacity: 0.70;
+    text-shadow: 0 1px 0 #41581C,
+           0 2px 0 #41581C,
+           0 3px 0 #41581C,
+           0 4px 0 #41581C,
+           0 5px 0 #41581C,
+           0 6px 1px rgba(0,0,0,.1),
+           0 0 5px rgba(0,0,0,.1),
+           0 1px 3px rgba(0,0,0,.3),
+           0 3px 5px rgba(0,0,0,.2),
+           0 5px 10px rgba(0,0,0,.25),
+           0 10px 10px rgba(0,0,0,.2),
+           0 20px 20px rgba(0,0,0,.15);
+}
+
+.sensor_labels {
+    font-size:48pt;
+    color:#A1AB84;
+    font-weight:bold;
+}
+
+/*#temperatures {*/
+/*    height:100%;*/
+/*}*/
+
+/*#humidity {*/
+/*    height:100%;*/
+/*}*/
+#temp_f {
+/*    float:right;*/
+}
+#temp_c {
+    font-size:72pt;
+/*    float:right;*/
+}
+
+#hum {
+/*    margin-top: 30px;*/
+}
+
+#humidity{
+    z-index:2;
+}

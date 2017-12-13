@@ -1,0 +1,5 @@
+[program:autoflower]
+directory=/home/pi/pio
+command=python server.py
+autostart=true
+autorestart=true

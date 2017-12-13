@@ -1,0 +1,216 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%; 
+	background: url(../images/background.jpg) no-repeat;
+	-webkit-background-size: cover;
+	/*background-color: #009300/*#999966*/;
+}
+
+/*
+This is for the fancy scrollbars (Chrome only)
+*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+#main {
+    position:absolute;
+    display: inline-block;
+    width:90%;
+}
+
+#status_bar {
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    width:600px;
+    font-size:24pt;
+    background-color: rgba(41, 65, 3, 0.75);
+    border-radius:20px;
+}
+
+#date {
+    text-align:center;
+}
+
+#db_status {
+        padding-left:60%;
+/*    float:right;*/
+/*    position:relative;*/
+    height:50px;
+}
+
+#date {
+    color:#AFD402;
+    text-shadow: 0 1px 0 #41581C,
+           0 2px 0 #41581C,
+           0 3px 0 #41581C,
+           0 4px 0 #41581C,
+           0 5px 0 #41581C,
+           0 6px 1px rgba(0,0,0,.1),
+           0 0 5px rgba(0,0,0,.1),
+           0 1px 3px rgba(0,0,0,.3),
+           0 3px 5px rgba(0,0,0,.2),
+           0 5px 10px rgba(0,0,0,.25),
+           0 10px 10px rgba(0,0,0,.2),
+           0 20px 20px rgba(0,0,0,.15);
+}
+
+#tabs {
+    display:inline-block;
+    float:right;
+    vertical-align:center;
+    text-align:center;
+    background-color: rgba(41, 65, 3, 0.75);
+}
+
+#tabs ul {
+    list-style-type: none;
+}
+
+#tabs li img{
+    height:100px;
+}
+
+#card_bar {
+    background-color: rgba(41, 65, 3, 0.75);
+    font-size:32pt;
+    font-weight:bold;
+    text-align:center;
+    display:table-cell;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    text-shadow:0px -1px 0px rgba(255,255,255,0.1);
+/*    text-shadow: 0 1px 0 #41581C,*/
+/*       0 2px 0 #41581C,*/
+/*       0 3px 0 #41581C,*/
+/*       0 4px 0 #b9b9b9,*/
+/*       0 5px 0 #41581C,*/
+/*       0 6px 1px rgba(0,0,0,.1),*/
+/*       0 0 5px rgba(0,0,0,.1),*/
+/*       0 1px 3px rgba(0,0,0,.3),*/
+/*       0 3px 5px rgba(0,0,0,.2),*/
+/*       0 5px 10px rgba(0,0,0,.25),*/
+/*       0 10px 10px rgba(0,0,0,.2),*/
+/*       0 20px 20px rgba(0,0,0,.15);*/
+/*    }*/
+}
+
+#growroom_card{
+    display:table;
+    height:400px;
+    border-radius:20px;
+/*    width:700px;*/
+}
+
+#growroom_card_contents {
+    width:100%;
+    display:table-row;
+    height:inherit;
+/*    height:400px;*/
+    text-align:center;
+    vertical-align:middle;
+/*    box-shadow: 10px 10px 5px #294103;*/
+/*    background-color: rgba(161, 171, 132, 0.65);*/
+}
+
+#growroom_card_panel {
+    display:table-cell;
+    vertical-align:middle;
+    border-top-left-radius:100px;
+    border-bottom-left-radius:100px;
+}
+
+#growroom_card_panel ul {
+    list-style-type: none;
+    -webkit-padding-start: 0px;
+    width:120px;
+}
+
+#growroom_card_panel li img{
+    height:100px;
+}
+
+#growroom_schedule {
+    position:absolute;
+    border-radius:20px;
+}
+
+.card_background {
+    background-color: rgba(161, 171, 132, 0.65);
+}
+
+#growroom_card_info_container{
+    display:table-cell;
+    vertical-align:middle;
+    z-index:1;
+    box-shadow: inset -5px 0px 5px #294103, inset 5px 0px 5px #294103;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#growroom_card_info_container > div:first-of-type{
+/*    box-shadow: 0px 5px 5px #294103;*/
+    text-align:center;
+/*    max-height:90%;*/
+/*    overflow:scroll;*/
+}
+
+#growroom_sensor_summary {
+    display:table-cell;
+/*    height:100%;*/
+    text-align:center;
+    vertical-align:middle;
+    border-right:1px solid black;
+    z-index:999;
+    box-shadow: 10px 10px 5px #294103;
+    padding-right:10px;
+    padding-left:10px;
+/*    width:39%;*/
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px #294103;
+}
+
+#room_rep{
+    display:table-cell;
+/*    height:100%;*/
+    text-align:center;
+    vertical-align:middle;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    border-bottom-right-radius:20px;
+    border-left:1px solid black;
+/*    width:60%;*/
+}
+
+table[id$="_table"] th {
+    font-size:16pt;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+table[id$="_table"] td {
+    border: 0;
+    font-size: 16pt;
+    text-align:center;
+/*    border: 2px solid black;*/
+    width:100%;
+}
+
+table[id$="_table"] img{
+    height:25px;
+}
